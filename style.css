@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product {
+    max-width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.image_container {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+.btn{
+    margin-bottom: 40px;
+
+}
+.tickettable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    
+
+}
